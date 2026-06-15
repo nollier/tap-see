@@ -31,6 +31,9 @@ header.scrolled{background:rgba(253,250,245,.95);backdrop-filter:blur(8px);box-s
 header .container{display:flex;align-items:center;justify-content:space-between}
 .logo{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:var(--brown);letter-spacing:-.02em}
 .logo span{color:var(--gold)}
+header .nav-actions{display:flex;align-items:center;gap:12px}
+header .cta-login{border:1.5px solid var(--brown);color:var(--brown);padding:9px 22px;border-radius:6px;text-decoration:none;font-weight:600;font-size:.9rem;transition:background .25s,color .25s,transform .25s;background:transparent}
+header .cta-login:hover{background:var(--brown);color:var(--cream);transform:translateY(-1px)}
 header .cta-nav{background:var(--brown);color:var(--cream);padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;font-size:.9rem;transition:background .25s,transform .25s}
 header .cta-nav:hover{background:var(--brown-mid);transform:translateY(-1px)}
 
@@ -102,8 +105,10 @@ section{padding:90px 0}
 .price-name{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:var(--brown);margin-bottom:6px}
 .price-tag{font-size:2.6rem;font-weight:700;color:var(--brown);line-height:1}
 .price-tag small{font-size:.9rem;font-weight:500}
-.price-setup{font-size:.85rem;color:var(--brown-mid);margin:6px 0 20px}
+.price-setup{font-size:.85rem;color:var(--brown-mid);margin:6px 0 8px}
 .price-card.featured .price-setup{color:rgba(255,255,255,.5)}
+.price-no-commit{font-size:.78rem;color:var(--gold);font-weight:700;margin-bottom:20px;display:flex;align-items:center;gap:4px}
+.price-card.featured .price-no-commit{color:var(--gold-light)}
 .price-desc{font-size:.88rem;color:var(--brown-mid);margin-bottom:20px;line-height:1.5}
 .price-feat{list-style:none;margin-bottom:28px;flex:1}
 .price-feat li{padding:6px 0;font-size:.88rem;color:var(--brown-mid);position:relative;padding-left:22px}
@@ -156,7 +161,10 @@ footer a{color:var(--gold-light);text-decoration:none}
 <header id="header">
   <div class="container">
     <div class="logo">Tap<span>&</span>See</div>
-    <a href="https://calendar.app.google/vFrF2saRTZQcN5Yn8" target="_blank" class="cta-nav">Prendre RDV</a>
+    <div class="nav-actions">
+      <a href="https://tap-see-app.pages.dev/" target="_blank" class="cta-login">Se connecter</a>
+      <a href="https://calendar.app.google/vFrF2saRTZQcN5Yn8" target="_blank" class="cta-nav">Prendre RDV</a>
+    </div>
   </div>
 </header>
 
@@ -268,6 +276,7 @@ footer a{color:var(--gold-light);text-decoration:none}
         <div class="price-name">Starter</div>
         <div class="price-tag">69€ <small>/mois</small></div>
         <div class="price-setup">Setup : 290 €</div>
+        <div class="price-no-commit">✓ Sans engagement</div>
         <p class="price-desc">Pour découvrir l'outil sur une sélection de produits phares.</p>
         <ul class="price-feat">
           <li>3 produits configurés</li>
@@ -283,6 +292,7 @@ footer a{color:var(--gold-light);text-decoration:none}
         <div class="price-name">Pro</div>
         <div class="price-tag">99€ <small>/mois</small></div>
         <div class="price-setup">Setup : 490 €</div>
+        <div class="price-no-commit">✓ Sans engagement</div>
         <p class="price-desc">L'offre idéale pour équiper l'ensemble de votre force de vente.</p>
         <ul class="price-feat">
           <li>10 produits configurés</li>
@@ -298,6 +308,7 @@ footer a{color:var(--gold-light);text-decoration:none}
         <div class="price-name">Premium</div>
         <div class="price-tag">149€ <small>/mois</small></div>
         <div class="price-setup">Setup : 790 €</div>
+        <div class="price-no-commit">✓ Sans engagement</div>
         <p class="price-desc">La solution complète pour les enseignes avec un large catalogue.</p>
         <ul class="price-feat">
           <li>Produits illimités</li>
