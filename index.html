@@ -115,85 +115,23 @@
       <p class="section-subtitle">L'outil est configuré avec vos propres produits. Choisissez votre secteur pour voir des résultats concrets et les offres correspondantes.</p>
     </div>
 
-    <div class="sector-switch reveal" role="tablist" aria-label="Filtrer par secteur">
-      <button class="sector-btn" role="tab" id="tab-ameublement" data-sector="ameublement" aria-selected="false" aria-controls="panel-ameublement">
-        <span class="sector-btn-icon"><svg viewBox="0 0 24 24"><path d="M20 9V7a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 00-2 2v5h2v2h2v-2h8v2h2v-2h2v-5a2 2 0 00-2-2zM6 7h12v2.28c-.6.35-1 .98-1 1.72v2H7v-2c0-.74-.4-1.38-1-1.72V7z"/></svg></span>
-        <span>
+    <div class="sector-switch reveal">
+      <a class="sector-btn" href="ameublement.html">
+        <span class="sector-btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c-1.1 0-2 .9-2 2v3H5v-3c0-1.1-.9-2-2-2s-2 .9-2 2v5c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2v-5c0-1.1-.9-2-2-2zm-3-5H6c-1.1 0-2 .9-2 2v1.5c1.1 0 2 .9 2 2V13h12v-2.5c0-1.1.9-2 2-2V7c0-1.1-.9-2-2-2z"/></svg></span>
+        <span class="sector-btn-text">
           <span class="sector-btn-name">Ameublement</span>
           <span class="sector-btn-desc">Canapés, fauteuils, tables — magasins et enseignes de mobilier</span>
         </span>
-      </button>
-      <button class="sector-btn" role="tab" id="tab-piscine" data-sector="piscine" aria-selected="false" aria-controls="panel-piscine">
-        <span class="sector-btn-icon"><svg viewBox="0 0 24 24"><path d="M2 18c1.5 0 2.5-1 4-1s2.5 1 4 1 2.5-1 4-1 2.5 1 4 1 2.5-1 4-1v2c-1.5 0-2.5 1-4 1s-2.5-1-4-1-2.5 1-4 1-2.5-1-4-1-2.5 1-4 1v-2zm4-4c1.5 0 2.5-1 4-1s2.5 1 4 1 2.5-1 4-1 2.5 1 4 1v2c-1.5 0-2.5-1-4-1s-2.5 1-4 1-2.5-1-4-1-2.5 1-4 1-2.5-1-4-1v-2h0zM7 3h2v9H7V3zm8 0h2v9h-2V3zM9 6h6v2H9V6z"/></svg></span>
-        <span>
+        <span class="sector-btn-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"/></svg></span>
+      </a>
+      <a class="sector-btn" href="piscine.html">
+        <span class="sector-btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 16.99c-1.35 0-2.2.42-2.95.8-.65.33-1.18.6-2.05.6-.9 0-1.4-.25-2.05-.6-.75-.38-1.57-.8-2.95-.8s-2.2.42-2.95.8c-.65.33-1.17.6-2.05.6v1.95c1.35 0 2.2-.42 2.95-.8.65-.33 1.17-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.42 2.95-.8c.65-.33 1.18-.6 2.05-.6.9 0 1.4.25 2.05.6.75.38 1.57.8 2.95.8V18.4c-.9 0-1.4-.25-2.05-.6-.75-.39-1.57-.81-2.95-.81zm0-4.45c-1.35 0-2.2.43-2.95.8-.65.32-1.18.6-2.05.6-.9 0-1.4-.25-2.05-.6-.75-.38-1.57-.8-2.95-.8s-2.2.43-2.95.8c-.65.33-1.17.6-2.05.6v1.95c1.35 0 2.2-.43 2.95-.8.65-.33 1.17-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.43 2.95-.8c.65-.32 1.18-.6 2.05-.6.9 0 1.4.25 2.05.6.75.38 1.57.8 2.95.8v-1.95c-.9 0-1.4-.25-2.05-.6-.75-.38-1.57-.8-2.95-.8zm2.95-8.08c-.75-.38-1.58-.8-2.95-.8s-2.2.42-2.95.8c-.65.32-1.17.6-2.05.6s-1.4-.25-2.05-.6c-.75-.37-1.57-.8-2.95-.8s-2.2.42-2.95.8c-.65.33-1.17.6-2.05.6v1.93c1.35 0 2.2-.43 2.95-.8.65-.33 1.17-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.43 2.95-.8c.65-.33 1.18-.6 2.05-.6.9 0 1.4.25 2.05.6.75.38 1.57.8 2.95.8V5.04c-.9 0-1.4-.25-2.05-.58zM17 8.09c-1.35 0-2.2.43-2.95.8-.65.32-1.18.6-2.05.6-.9 0-1.4-.25-2.05-.6-.75-.38-1.57-.8-2.95-.8s-2.2.43-2.95.8c-.65.33-1.17.6-2.05.6v1.95c1.35 0 2.2-.43 2.95-.8.65-.33 1.17-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.43 2.95-.8c.65-.32 1.18-.6 2.05-.6.9 0 1.4.25 2.05.6.75.38 1.57.8 2.95.8V9.49c-.9 0-1.4-.25-2.05-.6-.75-.38-1.57-.8-2.95-.8z"/></svg></span>
+        <span class="sector-btn-text">
           <span class="sector-btn-name">Piscine</span>
           <span class="sector-btn-desc">Piscinistes, réseaux et constructeurs de bassins</span>
         </span>
-      </button>
-    </div>
-
-    <!-- Panneau AMEUBLEMENT -->
-    <div class="sector-panel" id="panel-ameublement" role="tabpanel" aria-labelledby="tab-ameublement" hidden>
-      <div class="sector-panel-head">
-        <h3>Le canapé du catalogue, dans le salon du client</h3>
-        <p>Le vendeur change le coloris, projette le modèle dans la photo du salon, et le client voit exactement ce qu'il va recevoir.</p>
-      </div>
-      <div class="showcase-pair">
-        <div class="showcase-img-wrap">
-          <div class="stag before">Photo du client</div>
-          <img src="original-client.jpg" alt="Salon du client avant projection du canapé" loading="lazy">
-        </div>
-        <div class="showcase-arrow">
-          <svg viewBox="0 0 24 24"><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"/></svg>
-        </div>
-        <div class="showcase-img-wrap">
-          <div class="stag after">Projection Tap&See</div>
-          <img src="anita-projection.png" alt="Canapé Anita projeté dans le salon du client par Tap&See" loading="lazy">
-        </div>
-      </div>
-      <div class="sector-points">
-        <div class="sector-point"><strong>Tous les coloris, sans stock</strong><span>Cuir, tissu, velours : le modèle est régénéré dans le revêtement demandé, même s'il n'est pas en magasin.</span></div>
-        <div class="sector-point"><strong>Le vrai salon du client</strong><span>Murs, sol, luminosité : le produit s'intègre à la photo réelle, pas à un décor générique.</span></div>
-        <div class="sector-point"><strong>Utilisable pendant la vente</strong><span>Le vendeur reste avec le client, l'écran fait le reste. Aucune formation nécessaire.</span></div>
-      </div>
-      <div class="sector-cta">
-        <a href="ameublement.html" class="btn-primary">
-          <svg viewBox="0 0 24 24"><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"/></svg>
-          Voir la page Ameublement
-        </a>
-      </div>
-    </div>
-
-    <!-- Panneau PISCINE -->
-    <div class="sector-panel" id="panel-piscine" role="tabpanel" aria-labelledby="tab-piscine" hidden>
-      <div class="sector-panel-head">
-        <h3>Le bassin projeté dans le jardin réel du client</h3>
-        <p>Le commercial teste plusieurs bassins et finitions sur la photo du jardin, en rendez-vous, devant le client.</p>
-      </div>
-      <div class="showcase-pair">
-        <div class="showcase-img-wrap">
-          <div class="stag before">Photo du jardin</div>
-          <img src="piscine-jardin-original.jpg" alt="Jardin du client avant installation de la piscine" loading="lazy">
-        </div>
-        <div class="showcase-arrow">
-          <svg viewBox="0 0 24 24"><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"/></svg>
-        </div>
-        <div class="showcase-img-wrap">
-          <div class="stag after">Projection Tap&See</div>
-          <img src="piscine-tap-see.jpg" alt="Piscine projetée dans le jardin du client par Tap&See" loading="lazy">
-        </div>
-      </div>
-      <div class="sector-points">
-        <div class="sector-point"><strong>Plusieurs bassins comparés</strong><span>Rectangulaire, ovale, hors-sol : le client compare les modèles dans son propre jardin en quelques secondes.</span></div>
-        <div class="sector-point"><strong>Aucun élément inventé</strong><span>Contrairement à une IA généraliste, seul le bassin que vous vendez est ajouté. Le jardin reste fidèle.</span></div>
-        <div class="sector-point"><strong>En show-room ou à domicile</strong><span>Fonctionne sur tablette comme sur ordinateur, partout où se joue le rendez-vous.</span></div>
-      </div>
-      <div class="sector-cta">
-        <a href="piscine.html" class="btn-primary">
-          <svg viewBox="0 0 24 24"><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"/></svg>
-          Voir la page Piscine
-        </a>
-      </div>
+        <span class="sector-btn-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"/></svg></span>
+      </a>
     </div>
   </div>
 </section>
@@ -243,7 +181,7 @@
 <footer>
   <div class="container">
     <p><a href="ameublement.html">Ameublement</a> · <a href="piscine.html">Piscine</a></p>
-    <p style="margin-top:10px">© 2026 Tap&See. Tous droits réservés. <a href="mailto:tap-see@hotmail.com">tap-see@hotmail.com</a> · <a href="mentions-legales.html">Mentions légales & CGV</a></p>
+    <p style="margin-top:10px">© 2026 Tap&See. Tous droits réservés. <a href="mailto:contact@tap-see.com">contact@tap-see.com</a> · <a href="mentions-legales.html">Mentions légales & CGV</a></p>
   </div>
 </footer>
 
@@ -254,36 +192,5 @@
 </a>
 
 <script src="main.js"></script>
-<script>
-// ── Filtre secteur ──
-const sectorBtns = document.querySelectorAll('.sector-btn');
-const sectorPanels = document.querySelectorAll('.sector-panel');
-
-function selectSector(sector, scroll) {
-  sectorBtns.forEach(btn => btn.setAttribute('aria-selected', String(btn.dataset.sector === sector)));
-  sectorPanels.forEach(panel => panel.hidden = panel.id !== 'panel-' + sector);
-  try { localStorage.setItem('tapsee-secteur', sector); } catch (e) {}
-  if (scroll) {
-    document.getElementById('panel-' + sector).scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-}
-
-sectorBtns.forEach(btn => {
-  btn.addEventListener('click', () => selectSector(btn.dataset.sector, true));
-});
-
-// Pré-sélection : ?secteur=piscine, #piscine, ou dernier choix mémorisé
-const params = new URLSearchParams(window.location.search);
-const wanted = params.get('secteur') || window.location.hash.replace('#', '');
-let initial = null;
-if (wanted === 'piscine' || wanted === 'ameublement') {
-  initial = wanted;
-} else {
-  try { initial = localStorage.getItem('tapsee-secteur'); } catch (e) {}
-}
-if (initial === 'piscine' || initial === 'ameublement') {
-  selectSector(initial, false);
-}
-</script>
 </body>
 </html>
