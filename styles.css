@@ -137,6 +137,20 @@ section{padding:90px 0}
 .price-feat{list-style:none;margin-bottom:28px;flex:1}
 .price-feat li{padding:6px 0;font-size:.88rem;color:var(--brown-mid);position:relative;padding-left:22px}
 .price-feat li::before{content:'✓';position:absolute;left:0;color:var(--gold);font-weight:700}
+.price-annual{font-size:.85rem;color:var(--brown-mid);background:rgba(196,162,101,.12);border-radius:10px;padding:10px 14px;margin:12px 0 4px;line-height:1.5}
+.price-annual strong{color:var(--brown)}
+.price-card.featured .price-annual{background:rgba(255,255,255,.08);color:rgba(255,255,255,.75)}
+.price-card.featured .price-annual strong{color:var(--gold-light)}
+.price-tag-quote{font-family:'Playfair Display',serif;font-size:2.4rem}
+.pricing-grid--detailed .price-feat{border-top:1px solid rgba(196,162,101,.2);padding-top:14px;margin-bottom:20px}
+.pricing-grid--detailed .featured .price-feat{border-top-color:rgba(255,255,255,.12)}
+.price-feat li strong{color:var(--brown)}
+.price-card.featured .price-feat li strong{color:var(--cream)}
+.price-note{font-size:.82rem;color:var(--brown-mid);line-height:1.45;margin-bottom:20px}
+.price-note strong{color:var(--brown)}
+.price-card.featured .price-note{color:rgba(255,255,255,.65)}
+.price-card.featured .price-note strong{color:var(--gold-light)}
+.pricing-grid--detailed .featured .price-feat li{color:rgba(255,255,255,.85)}
 .btn-price{display:block;text-align:center;padding:14px;border-radius:8px;background:var(--brown);color:var(--cream);text-decoration:none;font-weight:700;font-size:.95rem;transition:all .25s}
 .btn-price:hover{background:var(--brown-mid);transform:translateY(-1px)}
 
