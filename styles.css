@@ -124,6 +124,27 @@ section{padding:90px 0}
 .price-card.featured .price-desc{color:rgba(255,255,255,.6)}
 .price-card.featured .price-feat{color:rgba(255,255,255,.8)}
 .price-card.featured .price-feat li::before{color:var(--gold-light)}
+.price-period{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--brown-mid);margin-bottom:8px}
+.price-offer{background:var(--gold-light);color:var(--brown-dark);border-radius:20px;padding:3px 10px;font-size:.72rem;letter-spacing:0;text-transform:none}
+.price-commit{font-weight:400;letter-spacing:0;text-transform:none;font-size:.78rem}
+.price-tag--serif{font-family:'Playfair Display',serif}
+.price-tag--serif small{font-family:'DM Sans',sans-serif}
+.price-sub{font-size:.85rem;color:var(--brown-mid);line-height:1.5;margin:6px 0 16px}
+.price-sub strong{color:var(--brown)}
+.price-monthly{background:rgba(196,162,101,.12);border-radius:10px;padding:14px 16px;margin-bottom:20px}
+.price-monthly-tag{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--brown);line-height:1.2}
+.price-monthly-tag small{font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500}
+.price-monthly-setup{font-size:.82rem;color:var(--brown-mid);margin-top:4px}
+.price-card.featured .price-period{color:var(--gold-light)}
+.price-card.featured .price-commit{color:rgba(255,255,255,.75)}
+.price-card.featured .price-sub{color:rgba(255,255,255,.7)}
+.price-card.featured .price-sub strong{color:var(--cream)}
+.price-card.featured .price-monthly{background:rgba(255,255,255,.08)}
+.price-card.featured .price-monthly-tag{color:var(--cream)}
+.price-card.featured .price-monthly-setup{color:rgba(255,255,255,.6)}
+.price-options{background:var(--white);border:1px solid rgba(196,162,101,.12);border-radius:16px;padding:24px 28px;margin-top:32px;font-size:.95rem;color:var(--brown-mid);line-height:1.6}
+.price-options strong{color:var(--brown)}
+.price-options-title{font-family:'Playfair Display',serif;font-weight:700;font-size:1.1rem;color:var(--brown);margin-bottom:4px}
 .price-card.featured .btn-price{background:var(--gold);color:var(--brown-dark)}
 .price-card.featured .btn-price:hover{background:var(--gold-light)}
 .featured-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--brown-dark);padding:4px 18px;border-radius:20px;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
